@@ -1,0 +1,13 @@
+.card {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    height: 28rem;
+    width: 28rem;
+}
+
+.spacer {
+    width: 7rem;
+}
+
+html body {
+    background: #ECECE2;
+}
