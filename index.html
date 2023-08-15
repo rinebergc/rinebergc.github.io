@@ -3,47 +3,49 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Homepage</title>
+        <title>Rineberg</title>
         <!--Favicons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
         <link rel="manifest" href="favicons/site.webmanifest">
-        <!--CSS-->
-        <link href="css/style.css" rel="stylesheet">
+        <!--CSS/Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="assets/css/content.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!--JS-->
+        <script src="https://kit.fontawesome.com/656f57219b.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!--Navbar-->
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
-                <span class="navbar-brand d-inline-flex align-items-center mb-0 h1">
-                    <img src="favicons/favicon-32x32.png" alt="CR" width="32" height="32" class="d-inline-block align-text-top me-2">
-                    Carter Rineberg
-                </span>
-            </div>
-        </nav>
-        <!--Content-->
         <div class="container-fluid text-center">
             <div class="row d-inline-flex align-items-center justify-content-center vh-100">
-                <div class="col-md-auto">
-                    <div class="card">
-                        Placeholder
+                <div id="content">
+                    <h1 id="title">Carter Rineberg</h1>
+                    <div id="main">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/rinebergc">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rinebergc">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    GitHub
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <!--
-                <div class="col-md-auto px-5">
-                    <div class="spacer"></div>
-                </div>
-                -->
-                <div class="col-md-auto">
-                    <div class="card">
-                        Placeholder
+                    <div id="footer">
+                        <b>contact: carter@rineberg.net</b>
+                        <br>
+                        <p>coded by hand • (c) 2023</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!--JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>
