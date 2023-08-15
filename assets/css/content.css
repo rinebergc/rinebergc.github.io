@@ -1,10 +1,16 @@
-.container-fluid {
-    background: url("../img/background.png");
-    background-repeat: repeat;
-}
-
 #content {
     background: white;
+}
+
+#footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    padding: 37.5px 50px 25px 50px;
+}
+
+#main ul {
+    margin: 0;
+    padding: 0;
 }
 
 #title {
@@ -14,9 +20,14 @@
     word-spacing: 25px;
 }
 
-#main ul {
-    margin: 0;
-    padding: 0;
+.container-fluid {
+    background: url("../img/background.png");
+    background-repeat: repeat;
+}
+
+.fa-linkedin, .fa-square-github {
+    padding-right: 5px;
+    color: var(--fa-inverse)
 }
 
 li {
@@ -43,15 +54,4 @@ li a {
 a:hover {
     background: black;
     color: white;
-}
-
-.fa-linkedin, .fa-square-github {
-    padding-right: 5px;
-    color: var(--fa-inverse)
-}
-
-#footer {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12px;
-    padding: 37.5px 50px 25px 50px;
 }
