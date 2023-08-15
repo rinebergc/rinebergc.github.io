@@ -13,13 +13,6 @@
     padding: 0;
 }
 
-#title {
-    color: black;
-    font-family: 'Rock Salt', cursive;
-    padding: 50px 50px 37.5px 50px;
-    word-spacing: 25px;
-}
-
 .container-fluid {
     background: url("../img/background.png");
     background-repeat: repeat;
@@ -28,6 +21,13 @@
 .fa-linkedin, .fa-square-github {
     padding-right: 5px;
     color: var(--fa-inverse)
+}
+
+h1 {
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    padding: 50px 50px 37.5px 50px;
+    word-spacing: 25px;
 }
 
 li {
