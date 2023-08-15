@@ -5,7 +5,7 @@
 #footer {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 12px;
-    padding: 37.5px 50px 25px 50px;
+    padding: 27.5px 50px 25px 50px;
 }
 
 #main ul {
@@ -26,7 +26,8 @@
 h1 {
     color: black;
     font-family: 'Rock Salt', cursive;
-    padding: 50px 50px 37.5px 50px;
+    font-size: 48px;
+    padding: 50px 50px 27.5px 50px;
     word-spacing: 25px;
 }
 
@@ -36,8 +37,9 @@ li {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     display: inline-block;
+    margin: 10px 10px 10px 10px;
     text-align: center;
-    width: 250px;
+    width: 175px;
 }
 
 li a {
