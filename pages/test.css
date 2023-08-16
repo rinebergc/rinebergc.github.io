@@ -13,3 +13,66 @@
     transform: rotateZ(var(--deg-Z));
     transform-style: preserve-3d;
 }
+
+.container-fluid {
+    background: url("../img/background.png");
+    background-repeat: repeat;
+}
+
+#card {
+    background: white;
+}
+
+#header {
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    font-size: 48px;
+    padding: 50px 50px 27.5px 50px;
+    word-spacing: 25px;
+}
+
+li {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    width: 175px;
+}
+
+li a {
+    color: black;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+}
+
+.fa-linkedin, .fa-square-github {
+    padding-right: 5px;
+    color: var(--fa-inverse)
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+
+#footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    padding: 27.5px 50px 25px 50px;
+}
+
+#contact {
+    font-weight: 700;
+}
+
+#copyright{
+    font-weight: 500;
+}
