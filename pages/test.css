@@ -1,0 +1,15 @@
+:root {
+    --deg-X: 0deg;
+    --deg-Y: 0deg;
+    --deg-Z: 0deg;
+}
+
+#card {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 660px;
+    transform: rotateX(var(--deg-X));
+    transform: rotateY(var(--deg-Y));
+    transform: rotateZ(var(--deg-Z));
+    transform-style: preserve-3d;
+}
