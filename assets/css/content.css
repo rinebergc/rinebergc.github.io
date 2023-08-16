@@ -1,5 +1,18 @@
-#content {
+#card {
     background: white;
+}
+
+#contact {
+    font-weight: 700;
+}
+
+#content ul {
+    margin: 0;
+    padding: 0;
+}
+
+#copyright{
+    font-weight: 500;
 }
 
 #footer {
@@ -8,9 +21,12 @@
     padding: 27.5px 50px 25px 50px;
 }
 
-#main ul {
-    margin: 0;
-    padding: 0;
+#header {
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    font-size: 48px;
+    padding: 50px 50px 27.5px 50px;
+    word-spacing: 25px;
 }
 
 .container-fluid {
@@ -21,14 +37,6 @@
 .fa-linkedin, .fa-square-github {
     padding-right: 5px;
     color: var(--fa-inverse)
-}
-
-h1 {
-    color: black;
-    font-family: 'Rock Salt', cursive;
-    font-size: 48px;
-    padding: 50px 50px 27.5px 50px;
-    word-spacing: 25px;
 }
 
 li {
