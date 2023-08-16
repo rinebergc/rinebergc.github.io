@@ -1,24 +1,10 @@
+.container-fluid {
+    background: url("../img/background.png");
+    background-repeat: repeat;
+}
+
 #card {
     background: white;
-}
-
-#contact {
-    font-weight: 700;
-}
-
-#content ul {
-    margin: 0;
-    padding: 0;
-}
-
-#copyright{
-    font-weight: 500;
-}
-
-#footer {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12px;
-    padding: 27.5px 50px 25px 50px;
 }
 
 #header {
@@ -29,14 +15,9 @@
     word-spacing: 25px;
 }
 
-.container-fluid {
-    background: url("../img/background.png");
-    background-repeat: repeat;
-}
-
-.fa-linkedin, .fa-square-github {
-    padding-right: 5px;
-    color: var(--fa-inverse)
+#content ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -61,7 +42,26 @@ li a {
     text-decoration: none;
 }
 
+.fa-linkedin, .fa-square-github {
+    padding-right: 5px;
+    color: var(--fa-inverse)
+}
+
 a:hover {
     background: black;
     color: white;
+}
+
+#footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    padding: 27.5px 50px 25px 50px;
+}
+
+#contact {
+    font-weight: 700;
+}
+
+#copyright{
+    font-weight: 500;
 }
