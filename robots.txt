@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /assets/
+Disallow: /cdn-cgi/
 
 Sitemap: https://rineberg.net/sitemap.txt
