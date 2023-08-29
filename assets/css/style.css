@@ -1,8 +1,8 @@
 #card {
     background: white;
-    box-shadow: 0 0 0.313rem black;
     -moz-box-shadow: 0 0 0.313rem black;
     -webkit-box-shadow: 0 0 0.313rem black;
+    box-shadow: 0 0 0.313rem black;
 }
 
 #fLower {
@@ -32,7 +32,7 @@
     word-spacing: 1.5rem;
 }
 
-#buttons, ul {
+.buttons, ul {
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 0;
