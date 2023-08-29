@@ -1,0 +1,62 @@
+#card {
+    background: white;
+    height: 18rem;
+    width: 40.5rem;
+}
+
+#fLower {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+#fUpper {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+#title {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 0;
+    word-spacing: 1.5rem;
+}
+
+#buttons, ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+html {
+    font-size: 16px
+}
+
+li a {
+    /* li */
+    border: 0.063rem solid black;
+    width: 10rem;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    /* a */
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+
+.container-fluid {
+    background: url("../img/background.png");
+    background-repeat: repeat;
+}
+
+.fa-linkedin, .fa-square-github {
+    padding-right: 0.313rem;
+    color: var(--fa-inverse)
+}
