@@ -1,24 +1,13 @@
+#main {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #card {
     background: white;
     -moz-box-shadow: 0 0 0.313rem black;
     -webkit-box-shadow: 0 0 0.313rem black;
     box-shadow: 0 0 0.313rem black;
-}
-
-#fLower {
-    font-weight: 500;
-}
-
-#fUpper {
-    font-weight: 700;
-}
-
-#footer {
-    font-size: 0.75rem;
-    padding-bottom: 1.1rem;
-    padding-left: 2.455rem;
-    padding-right: 2.455rem;
-    padding-top: 0.726rem;
 }
 
 #title {
@@ -32,19 +21,24 @@
     word-spacing: 1.5rem;
 }
 
-.buttons, ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
+#footer {
+    font-size: 0.75rem;
+    padding-bottom: 1.1rem;
+    padding-left: 2.455rem;
+    padding-right: 2.455rem;
+    padding-top: 0.726rem;
+}
+
+#fLower {
+    font-weight: 500;
+}
+
+#fUpper {
+    font-weight: 700;
 }
 
 html {
     font-size: 16px
-}
-
-body {
-    padding: 0;
-    margin: 0;
 }
 
 li a {
@@ -67,12 +61,18 @@ a:hover {
     color: white;
 }
 
-.container-fluid {
-    background: url("../img/background.png");
-    background-repeat: repeat;
+.buttons, ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 .fa-linkedin, .fa-square-github {
     padding-right: 0.313rem;
     color: var(--fa-inverse)
+}
+
+.container-fluid {
+    background: url("../img/background.png");
+    background-repeat: repeat;
 }
