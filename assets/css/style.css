@@ -1,7 +1,7 @@
 #card {
     background: white;
-    height: 18rem;
-    width: 40.5rem;
+    /* height: 18rem;
+    width: 40.5rem; */
 }
 
 #fLower {
@@ -14,10 +14,19 @@
     font-weight: 700;
 }
 
+#footer {
+    padding-bottom: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 #title {
     color: black;
     font-size: 3rem;
     margin-bottom: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.25rem;
     word-spacing: 1.5rem;
 }
 
