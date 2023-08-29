@@ -12,18 +12,20 @@
 
 #footer {
     font-size: 0.75rem;
+    padding-bottom: 1.1rem;
     padding-left: 2.455rem;
     padding-right: 2.455rem;
-    padding-bottom: 1.826rem;
+    padding-top: 0.726rem;
 }
 
 #title {
     color: black;
     font-size: 3rem;
     margin-bottom: 0;
+    padding-bottom: 0.726rem;
     padding-left: 2.455rem;
     padding-right: 2.455rem;
-    padding-top: 1.826rem;
+    padding-top: 1.1rem;
     word-spacing: 1.5rem;
 }
 
