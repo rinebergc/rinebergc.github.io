@@ -21,7 +21,7 @@
     word-spacing: 1.5rem;
 }
 
-#footer {
+#fContainer {
     font-size: 0.75rem;
     padding-bottom: 1.1rem;
     padding-left: 2.455rem;
@@ -29,12 +29,12 @@
     padding-top: 0.726rem;
 }
 
-#fLower {
-    font-weight: 500;
-}
-
 #fUpper {
     font-weight: 700;
+}
+
+#fLower {
+    font-weight: 500;
 }
 
 html {
