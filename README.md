@@ -5,4 +5,4 @@ Open-source code for rineberg.net
 - Security/Analytics: Cloudflare
 - Framework: Bootstrap
 - Typeface: RockSalt and Noto Sans JP  
-_Respectivly licensed under the Apache License and SIL Open Font License._
+_Respectivly licensed under the Apache License and the SIL Open Font License._
