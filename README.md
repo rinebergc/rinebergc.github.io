@@ -1,7 +1,7 @@
 # rinebergc.github.io
-Open-source code for Rineberg.net.
+Open-source code for rineberg.net
 
 - Host: GitHub Pages
 - Security/Analytics: Cloudflare
 - Framework: Bootstrap
-- Fonts: Licensed under Apache/SIL Open Font, via Google Fonts (hosted here for blazing fast load times)
+- Typeface: RockSalt and Noto Sans JP, via Google Fonts. Respectivly licensed under the Apache License and SIL Open Font License.
